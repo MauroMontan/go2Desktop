@@ -1,0 +1,9 @@
+{
+    "URL": "https://www.google.com/",
+    "windowName": "Windows xd",
+    "windowIcon":"app.png",
+    "windowGeometry": [
+        800,
+        500
+    ]
+}
