@@ -4,6 +4,14 @@ from PySide2.QtWidgets import *
 from PySide2.QtGui import QIcon
 import sys
 import json
+from tendo import singleton
+
+
+try:
+    me = singleton.SingleInstance()
+except:
+    print("Already running")
+    sys.exit(-1)
 
 
 class Main(QMainWindow):
